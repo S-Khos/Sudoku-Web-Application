@@ -1,8 +1,3 @@
-# Lab 01-03 - Shayan Khosravi
-
-The starter code for lab 01-03.
-
-
 ## Overview
 
 Let's create the skeleton of a web-based sudoku game, implemented as two web pages, a game page and a high scores page.
