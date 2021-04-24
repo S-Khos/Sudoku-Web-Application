@@ -1,0 +1,158 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+/*
+NAVBAR 
+*/
+.navbar-brand #navbar-logo{
+    width: 80px;
+    height: 50px;
+    background-repeat: no-repeat;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+.navbar-menu.is-active{
+    width: 8rem;
+    float: right;
+}
+/*
+
+Table
+
+*/
+
+@media screen and (max-width: 2000px) {
+    #table {
+        max-width: 100% !important;
+        width: 100% !important;
+    } 
+}
+@media screen and (max-width: 850px) {
+    #table tr td{
+      font-size: 50%;
+      height: 2rem !important;
+      width: 2rem !important;
+    }
+    #table-container{
+        height: 100%;
+        width: 19rem;
+    }
+    #hotbar tr td{
+        font-size: 45%;
+        height: 1rem !important;
+        width: 1.7rem !important;
+    }
+    #hotbar{
+        margin: auto;
+    }
+    #timer{
+        font-size: 80% !important;
+    }
+    #undo{
+        height: .8rem !important;
+        width: 1.1rem !important;
+        margin-top: .3rem;
+    }
+
+}
+
+.table-container{
+    margin: auto;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    font-size: 150%;
+    text-align: center;
+    width: 38.5rem;
+    height: 45.5rem;
+    padding: .5rem;
+}
+
+.table-container #table tr td{
+    height: 4rem;
+    width: 4rem;
+    text-align: center  !important;
+    vertical-align: middle !important;
+}
+
+.table-container #table td:hover{
+    background-color: #f5dd90;
+}
+
+#timer{
+    margin: auto;
+    font-size: 120%;
+    text-align: center;
+
+}
+
+.error{
+    background-color: #ffcccb !important;
+}
+
+.activeError{
+    background-color: rgb(255, 105, 97) !important;
+}
+
+.clearError{
+    background-color: transparent;
+}
+.userInput{
+    background-color: lightblue !important;
+}
+
+.immutable{
+    background-color: #f2f2f2 !important;
+}
+
+#table td:first-child {
+    border-left:solid;
+}
+#table td:nth-child(3n) {
+    border-right:solid ;
+}
+#table tr:first-child td {
+    border-top:solid;
+}
+#table tr:nth-child(3n) td {
+    border-bottom:solid ;
+}
+
+#hotbar td:nth-child(n){
+    border: 2px solid;
+}
+
+#hotbar{
+    margin-left: .4rem;
+}
+
+#hotbar tr td{
+    text-align: center  !important;
+    vertical-align: middle !important;
+    height: 3.6rem;
+    width: 3.6rem;
+}
+
+#hotbar #undo{
+    height: 20px;
+    width: 40px;
+}
+#hotbar td:hover{
+    background-color: #f5dd90;
+}
+
+/*
+
+HIGH SCORE
+
+*/
+
+.content-body-score{
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    font-size: 150%;
+    text-align: center;
+    width: 18rem;
+
+}
